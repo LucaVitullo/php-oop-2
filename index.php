@@ -1,3 +1,6 @@
+
+
+<?php
 /*Oggi pomeriggio provate ad immaginare quali sono le classi necessarie per creare uno shop online con le seguenti caratteristiche.
 L'e-commerce vende prodotti per gli animali.
 I prodotti saranno oltre al cibo, anche giochi, cucce, etc.
@@ -7,3 +10,10 @@ Dividete bene in classi e implementate gli attributi e i metodi necessari per il
 Il focus è sulla parte di slide condivisa oggi su Drive.
 BONUS:
 Alcuni prodotti (es. antipulci) avranno la caratteristica che saranno disponibili solo in un periodo particolare (es. da maggio ad agosto).*/
+
+include 'classi/prodotti.php';
+include 'classi/utenti.php';
+include 'classi/cartaDiCredito.php';
+
+
+?>
