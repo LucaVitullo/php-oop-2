@@ -1,19 +1,17 @@
 <?php
 
-class prodotti
+class prodotto
 {
-    public $nome;
-    public $tipoDiProdotto;
+    public $nomeProdotto;
+    public $marca;
     public $descrizione;
     public $prezzo;
-    public $sconto;
 
-    function __construct($_nome, $_tipoDiProdotto, $_descrizione, $_prezzo, $_sconto)
+    function __construct($_nomeProdotto, $_marca, $_descrizione, $_prezzo)
     {
-        $this->nome = $_nome;
-        $this->tipoDiProdotto = $_tipoDiProdotto;
-        $this->_descrizone = $_descrizione;
+        $this->nomeProdotto = $_nomeProdotto;
+        $this->marca = $_marca;
+        $this->descrizione = $_descrizione;
         $this->prezzo = $_prezzo;
-        $this->sconto = $_sconto;
     }
-}
+};
